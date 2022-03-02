@@ -3,11 +3,13 @@ const NovedadItem = (props) => {
 
     return (
         <div className="novedades">
-        <h1>{title}</h1>
-        <h2>{subtitle}</h2>
-        <img alt="" src={imagen} />
-        <div dangerouslySetInnerHTML={{ __html: body }} />
-        <hr />
+            <div className="caja" >
+                <h1 className="titulo">{title}</h1>
+                <h2 className="subtitulo">{subtitle}</h2>
+                <img className="foto" alt="" src={imagen} />
+            </div>
+            <div dangerouslySetInnerHTML={{ __html: body }} />
+            <hr />
         </div>
     );
 }

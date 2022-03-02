@@ -21,7 +21,7 @@ const NovedadesPage = () => {
 
         return (
             <main className="holder">
-                <h2>Novedades</h2>
+                <h2 className="tituloprincipal">Noticias sobre el vacio</h2>
                 {loading ? (
                     <p>Cargando...</p>
                 ) : (

@@ -1,22 +1,24 @@
-.imagen{
-    border: #ffffff solid 1px;
+.novedades{
+color: rgb(154, 154, 177);
+font-size: 20px;
+text-align: center;
+}
+.caja{
+    color: aqua;
+    text-align: center;
+}
+
+.tituloprincipal{
+    color: rgb(255, 255, 255);
+    width: 290px;
+    height: 30px;
+    margin-left: 5em;
+    display:inline-table;
+    flex-grow:unset;
     border-radius: 5px;
-    color: #ffffff;
-    padding: 15px;
 }
 
-h3{
-    color: blueviolet;
-    border: white 1px solid;
+.foto{
+    border: 1px solid black;
     border-radius: 5px;
-    width: 150px;
-    
-}
-
-h1{
-    color: white;
-}
-
-div {
-    color: white;
 }
