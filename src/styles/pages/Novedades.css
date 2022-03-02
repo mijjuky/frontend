@@ -1,0 +1,22 @@
+.imagen{
+    border: #ffffff solid 1px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+h3{
+    color: blueviolet;
+    border: white 1px solid;
+    border-radius: 5px;
+    width: 150px;
+    
+}
+
+h1{
+    color: white;
+}
+
+div {
+    color: white;
+}
